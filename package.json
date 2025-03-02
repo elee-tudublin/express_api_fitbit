@@ -1,0 +1,31 @@
+{
+  "name": "fitbit-express-api",
+  "version": "1.0.0",
+  "description": "Express API for Fitbit",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env ./server.js",
+    "dev": "node --env-file=.env --watch ./server.js",
+    "test": ""
+  },
+  "keywords": [
+    "express",
+    "auth.js",
+    "fitbit",
+    "api",
+    "rest",
+    "oauth"
+  ],
+  "dependencies": {
+    "@auth/express": "^0.9.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "path": "^0.12.7",
+    "simple-oauth2": "^5.0.0",
+    "cookie-parser": "^1.4.6",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
